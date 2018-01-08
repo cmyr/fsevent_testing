@@ -1,0 +1,15 @@
+[package]
+name = "fse_debug"
+version = "0.1.0"
+authors = ["Colin Rofls <colin@cmyr.net>"]
+
+[dependencies]
+fsevent = "0.2"
+fsevent-sys = "0.1.6"
+tempdir = "*"
+xattr = "0.2"
+chrono = "0.4"
+
+[dependencies.test-helpers]
+version = "0.1"
+git = "https://github.com/cmyr/rust-test-tools.git"
